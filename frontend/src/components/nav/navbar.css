@@ -1,0 +1,65 @@
+/* RESPONSIVE NAV BAR */
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    
+}
+
+.navbar h1 {
+    padding-left: 20px;
+}
+
+ul {
+    padding-right: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+li {
+  float: left;
+  vertical-align: center;
+}
+
+li a {
+    font-size: 18px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+button{
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    padding: 0;
+}
+
+.btn-logout {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    height: 100%;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.btn-logout:hover {
+  background-color: #f44336;
+  color: white;
+}
